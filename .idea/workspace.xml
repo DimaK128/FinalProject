@@ -5,13 +5,45 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="878bed7f-ca81-48f8-ad94-6ae897cf5a2b" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/example/com/finalproject/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/example/com/finalproject/hello-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarManagementView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModelControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModelDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModelManagementView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarShow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarShowControler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarShowDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarShowManagementView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/FileUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/MainView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/ValidationUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/example/com/finalproject/hello-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -23,9 +55,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="2geADWwRH0XWWYccls50nKtU1i7" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -34,13 +66,25 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.MainView.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="example.com.finalproject" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -57,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1716047551601</updated>
-      <workItem from="1716047552666" duration="2000" />
+      <workItem from="1716047552666" duration="751000" />
+      <workItem from="1716060392293" duration="531000" />
     </task>
     <servers />
   </component>
