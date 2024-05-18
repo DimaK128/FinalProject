@@ -4,34 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="878bed7f-ca81-48f8-ad94-6ae897cf5a2b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarControler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarManagementView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModelControler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModelDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModelManagementView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarShow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarShowControler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarShowDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarShowManagementView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/FileUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/MainView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/ValidationUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/example/com/finalproject/hello-view.fxml" afterDir="false" />
+    <list default="true" id="878bed7f-ca81-48f8-ad94-6ae897cf5a2b" name="Changes" comment="!">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarManagementView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarManagementView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModelManagementView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/example/com/finalproject/CarModelManagementView.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +24,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "DimaK128"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/DimaK128/FinalProject.git",
+    "accountId": "c53774dc-d897-4b9a-91e6-e468be76e7ce"
+  }
+}]]></component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -67,6 +55,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.MainView.executor": "Run",
+    "Application.example.com.finalproject.MainView.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "master",
@@ -85,6 +74,20 @@
       <recent name="example.com.finalproject" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="MainView" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MainView" />
+      <module name="FinalProject" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.MainView" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -102,11 +105,24 @@
       <option name="presentableId" value="Default" />
       <updated>1716047551601</updated>
       <workItem from="1716047552666" duration="751000" />
-      <workItem from="1716060392293" duration="531000" />
+      <workItem from="1716060392293" duration="3559000" />
     </task>
+    <task id="LOCAL-00001" summary="!">
+      <option name="closed" value="true" />
+      <created>1716061185203</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1716061185203</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="!" />
+    <option name="LAST_COMMIT_MESSAGE" value="!" />
   </component>
 </project>

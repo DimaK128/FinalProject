@@ -4,6 +4,9 @@ import javafx.geometry.Insets;
 import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
+import javafx.stage.FileChooser;
+
+import java.io.File;
 
 public class CarManagementView {
     public BorderPane getView() {
@@ -38,6 +41,46 @@ public class CarManagementView {
         Button addButton = new Button("Add Car");
         Button updateButton = new Button("Update Car");
         Button clearButton = new Button("Clear Form");
+
+        addButton.setOnAction(event -> {
+            // Handle adding a new car
+            String make = makeField.getText();
+            String model = modelField.getText();
+            String country = countryField.getText();
+            int year = Integer.parseInt(yearField.getText());
+            String logoPath = ""; // Get logo path from the file chooser
+            String specs = specsArea.getText();
+            Car car = new Car(make, model, logoPath, country, year);
+            // Call a method to add the car to the database
+        });
+
+        updateButton.setOnAction(event -> {
+            // Handle updating the selected car
+            // Retrieve selected car from table
+            // Update car details
+            // Call a method to update the car in the database
+        });
+
+        clearButton.setOnAction(event -> {
+            // Clear all fields in the form
+            makeField.clear();
+            modelField.clear();
+            countryField.clear();
+            yearField.clear();
+            specsArea.clear();
+        });
+
+        logoButton.setOnAction(event -> {
+            // Handle logo upload
+            FileChooser fileChooser = new FileChooser();
+            fileChooser.setTitle("Upload Logo");
+            File file = fileChooser.showOpenDialog(null);
+            if (file != null) {
+                // Handle file upload and set the path to the logo field
+                String filePath = file.getAbsolutePath();
+                // Set filePath to logo field
+            }
+        });
 
         form.add(addButton, 0, 6);
         form.add(updateButton, 1, 6);

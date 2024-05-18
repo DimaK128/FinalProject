@@ -5,6 +5,10 @@ import javafx.scene.control.*;
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
+import javafx.stage.FileChooser;
+
+import java.io.File;
+import java.util.List;
 
 public class CarModelManagementView {
     public BorderPane getView() {
@@ -50,6 +54,30 @@ public class CarModelManagementView {
         Button additionalPhotosButton = new Button("Upload Additional Photos");
         TextArea descriptionArea = new TextArea();
         TextArea featuresArea = new TextArea();
+
+        mainPhotoButton.setOnAction(event -> {
+            FileChooser fileChooser = new FileChooser();
+            fileChooser.setTitle("Upload Main Photo");
+            File file = fileChooser.showOpenDialog(null);
+            if (file != null) {
+                // Handle file upload and set the path to the main photo field
+                String filePath = file.getAbsolutePath();
+                // Assuming setMainPhoto method exists in CarModel class
+                // carModel.setMainPhoto(filePath);
+            }
+        });
+
+        additionalPhotosButton.setOnAction(event -> {
+            FileChooser fileChooser = new FileChooser();
+            fileChooser.setTitle("Upload Additional Photos");
+            List<File> files = fileChooser.showOpenMultipleDialog(null);
+            if (files != null) {
+                // Handle file upload and set the paths to the additional photos field
+                // Assuming setAdditionalPhotos method exists in CarModel class
+                // List<String> filePaths = files.stream().map(File::getAbsolutePath).collect(Collectors.toList());
+                // carModel.setAdditionalPhotos(filePaths);
+            }
+        });
 
         form.add(new Label("Model Name:"), 0, 0);
         form.add(modelNameField, 1, 0);
